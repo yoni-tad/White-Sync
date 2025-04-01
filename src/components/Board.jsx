@@ -19,7 +19,7 @@ export default function Board(props) {
 
   // socket connection
   useEffect(() => {
-    const newSocket = io("http://localhost:5000", {
+    const newSocket = io("https://white-sync.onrender.com", {
       query: {token}
     });
     setSocket(newSocket);
