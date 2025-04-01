@@ -69,7 +69,7 @@ export default function App() {
 
   function copy() {
     var dummy = document.createElement("input"),
-    text = window.location.origin + window.location.pathname;
+    text = window.location.origin + window.location.pathname + window.location.search;
 
     document.body.appendChild(dummy);
     dummy.value = text;
