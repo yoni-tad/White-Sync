@@ -1,13 +1,1 @@
-{
-  "version": 2,
-  "builds": [
-    {
-      "src": "server.js",
-      "use": "@vercel/node"
-    }
-  ],
-  "env": {
-    "PORT": "3000",
-    "DB_URI": "@your_database_uri"
-  }
-}
+{ "version": 2, "rewrites": [{ "source": "/(.*)", "destination": "/" }] }
