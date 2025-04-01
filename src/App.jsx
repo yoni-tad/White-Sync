@@ -73,7 +73,7 @@ export default function App() {
         <div className="bg-pink-400 text-white px-6 py-2 rounded-lg flex justify-between items-center gap-6">
           <p className="flex-1 text-2xl font-bold">White Sync</p>
           {/* <Copy className="cursor-pointer" onClick={copy} /> */}
-          <a href="">
+          <a href="https://github.com/yoni-tad/White-Sync">
             <Star fill="#ffe140" color="#ffe140" />
           </a>
         </div>
