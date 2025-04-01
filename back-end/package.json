@@ -1,0 +1,23 @@
+{
+  "name": "back-end",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "mongoose": "^8.13.1",
+    "node-telegram-bot-api": "^0.66.0",
+    "nodemon": "^3.1.9",
+    "socket.io": "^4.8.1",
+    "uuid": "^11.1.0",
+    "ws": "^8.18.1"
+  }
+}
