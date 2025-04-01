@@ -12,7 +12,7 @@ bot.on("message", (msg) => {
   const messageText = msg.text;
 
   if (messageText == "/start") {
-    const webAppUrl = `http://localhost:4040?token=${chatId}}`;
+    const webAppUrl = `https://white-sync.onrender.com?token=${chatId}}`;
     const options = {
       reply_markup: {
         inline_keyboard: [
