@@ -1,12 +1,75 @@
-# React + Vite
+# WhiteSync 🎨
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+### WhiteSync is an interactive whiteboard mini app built for easy collaboration and project presentations. It allows users to draw and share their ideas. The real-time collaboration feature is coming soon, so multiple users will be able to join the board and draw together seamlessly. 
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## ✨ Features  
+- ✅ **Start drawing and share your ideas easily**
+- ✅ **Simple UI**
+- ✅ **Real-time Collaboration (Coming Soon)**
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript and enable type-aware lint rules. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 📹 Demo  
+https://github.com/user-attachments/assets/c8051257-aa18-4393-af82-5f27971675e1
+
+
+
+
+## 🛠️ Installation  
+
+### 1️⃣ Clone the repository  
+```sh
+git clone https://github.com/yoni-tad/White-Sync.git
+cd White-Sync
+```
+
+### 2️⃣ Install dependencies:
+
+- Frontend (React):
+```sh
+npm install
+```
+
+- Backend (Node.js):
+```sh
+cd back-end
+npm install
+```
+
+### 3️⃣ Start the development servers:
+Frontend:
+
+```sh
+npm run dev
+```
+
+Backend:
+```sh
+cd back-end
+npm start
+```
+
+### 4️⃣ Access the app: Open your browser and go to http://localhost:5173 to start using the whiteboard.
+
+  
+## 🛠️ Technologies Used
+- Frontend: React, Tailwind CSS
+- Backend: Node.js
+
+
+## 🚀 Future Improvements
+- ✅ Real-time Collaboration)
+- ✅ Support chat
+
+
+## 🤝 Contributing
+Feel free to fork the repo and submit a pull request if you have improvements!
+
+---
+
+## 📜 License
+📄 This project is MIT Licensed – feel free to use & modify!
+
+
+
