@@ -22,19 +22,6 @@ export default function App() {
   const [tools, setTools] = useState("pen");
   const [cursor, setCursor] = useState("crosshair");
 
-  const generateToken = async () => {
-    try {
-      const response = await fetch("http://localhost:4040/generate-invite");
-      const data = await response.json();
-
-      if (data.token) {
-        setToken(data.token);
-      }
-    } catch (error) {
-      console.error("Error generating token:", error);
-    }
-  };
-
   function toolHandler(tool) {
     switch (tool) {
       case "pen":
@@ -85,7 +72,7 @@ export default function App() {
         {/* Header */}
         <div className="bg-pink-400 text-white px-6 py-2 rounded-lg flex justify-between items-center gap-6">
           <p className="flex-1 text-2xl font-bold">White Sync</p>
-          <Copy className="cursor-pointer" onClick={copy} />
+          {/* <Copy className="cursor-pointer" onClick={copy} /> */}
           <a href="">
             <Star fill="#ffe140" color="#ffe140" />
           </a>
