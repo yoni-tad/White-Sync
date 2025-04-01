@@ -1,7 +1,3 @@
-const TelegramBot = require('node-telegram-bot-api');
-const path = require('path');
-require(path.join(__dirname, 'bot/bot.js'));
-
 const express = require("express");
 const mongoose = require("mongoose");
 const dotenv = require("dotenv");
